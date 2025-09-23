@@ -1,0 +1,15 @@
+{
+  "hash": "53a91c35bb8de2a65387de37905cfa40",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"**Website Name**\"\noutput:\n  html_document\n---\n\n<div class = \"banner_color\">\nBanner text!  \n</div>\n\n### **About**\n\nThis website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). \n\nThis enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See [ottrproject.org](https://www.ottrproject.org/) for more docs and details. \n\nHere is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](resources/images/example_image.png){fig-align='center' fig-alt='Example image' width=30%}\n:::\n:::\n\n\n \n \nWe will go through the following:\n\n1. How to set up your repository to enable the GitHub actions of the template. (Setup tab)\n2. How to host your website using GitHub (Hosting tab)\n3. How to modify your website structure (Structure tab)\n4. How to change your website style (Style tab)\n5. More information about GitHub Actions (Git Actions tab)\n\nClick on each tab to learn more.\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
