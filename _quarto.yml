@@ -3,16 +3,18 @@ project:
   output-dir: docs
   
 website:
+  title: "Data Science Collaborative"
   navbar:
     left:
-    - text: Data Science Collaborative
+    - text: Home
       href: index.qmd
       icon: fa-home
     - text: Projects
-      href: setup.qmd
+      href: projects.qmd
     - text: Team
       href: hosting.qmd
   page-footer:
     center: 
       - text: Powered by OTTR
         href: https://www.ottrproject.org/
+
