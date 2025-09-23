@@ -10,9 +10,9 @@ website:
       href: index.qmd
       icon: fa-home
     - text: Projects
-      href: setup.qmd
+      href: projects.qmd
     - text: Team
-      href: hosting.qmd
+      href: team.qmd
     - text: Powered by OTTR
       href: https://www.ottrproject.org/
 
