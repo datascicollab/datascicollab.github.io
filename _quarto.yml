@@ -12,6 +12,7 @@ website:
       href: setup.qmd
     - text: Team
       href: hosting.qmd
-    - text: Powered by OTTR
-      href: https://www.ottrproject.org/
-
+  page-footer:
+    center: 
+      - text: Powered by OTTR
+        href: https://www.ottrproject.org/
