@@ -3,27 +3,16 @@ project:
   output-dir: docs
   
 website:
-  title: "OTTR Template Website"
+  title: "Data Science Collaborative"
   navbar:
     left:
-    - text: ""
+    - text: About
       href: index.qmd
       icon: fa-home
-    - text: 1. Setup
-      href: setup.qmd
-    - text: 2. Hosting
-      href: hosting.qmd
-    - text: Editing
-      href: editing.qmd
-    - text: 3. Style
-      href: style.qmd
-    - text: 4. Git Actions
-      href: git_actions.qmd
-    - text: More ottr docs
+    - text: Projects
+      href: projects.qmd
+    - text: Team
+      href: team.qmd
+    - text: Powered by OTTR
       href: https://www.ottrproject.org/
 
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true

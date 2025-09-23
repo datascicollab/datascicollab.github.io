@@ -1,8 +1,7 @@
 meta:
-  name: brand.yml
-  link: https://datascicollab.github.io/brand-yml
+  name: _brand.yml
+  link: https://datascicollab.github.io
 
-logo: logos/icon/brand-yml-icon-color.svg
 
 color:
   palette:
