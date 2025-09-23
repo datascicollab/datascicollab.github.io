@@ -9,13 +9,13 @@ website:
     - text: ""
       href: index.qmd
       icon: fa-home
-    - text: 1. Setup
+    - text: Fred Hutch DaSL
       href: setup.qmd
-    - text: 2. Hosting
+    - text: UT Austin
       href: hosting.qmd
     - text: Editing
       href: editing.qmd
-    - text: 3. Style
+    - text: JHU
       href: style.qmd
     - text: 4. Git Actions
       href: git_actions.qmd
