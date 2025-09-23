@@ -9,16 +9,10 @@ website:
     - text: About
       href: index.qmd
       icon: fa-home
-    - text: Fred Hutch DaSL
+    - text: Projects
       href: setup.qmd
-    - text: UT Austin
+    - text: Team
       href: hosting.qmd
-    - text: Editing
-      href: editing.qmd
-    - text: JHU
-      href: style.qmd
-    - text: 4. Git Actions
-      href: git_actions.qmd
-    - text: More ottr docs
+    - text: Powered by OTTR
       href: https://www.ottrproject.org/
 
