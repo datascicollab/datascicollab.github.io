@@ -27,3 +27,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+brand: brand/_brand.yml
