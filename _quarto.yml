@@ -3,9 +3,10 @@ project:
   output-dir: docs
   
 website:
+  title: "Data Science Collaborative"
   navbar:
     left:
-    - text: Data Science Collaborative
+    - text: About
       href: index.qmd
       icon: fa-home
     - text: Projects
