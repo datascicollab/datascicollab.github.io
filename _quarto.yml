@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "OTTR Template Website"
+  title: "Data Science Collaborative"
   navbar:
     left:
     - text: ""
