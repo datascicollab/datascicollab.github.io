@@ -1,5 +1,5 @@
 ---
-title: "**Website Name**"
+title: "**Data Science Collaborative**"
 output:
   html_document
 ---
