@@ -3,7 +3,7 @@ meta:
   link: https://datascicollab.github.io/brand-yml
 
 logo: 
-  assets:
+  images:
     quarto-logo: 
       path: https://quarto.org/quarto.png
       alt: "Quarto icon"
