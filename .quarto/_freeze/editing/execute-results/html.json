@@ -1,0 +1,15 @@
+{
+  "hash": "6895f5b3b08b9db2863643d6d5f7203b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Editing\"\noutput: html_document\n---\n\nNow that your website is alive and hosted, how do you start customizing it to have your content?\n\nIf you already know how to file pull requests, feel free to start making edits as you see fit using some of the structure points we've noted below.\n\nIf you are not familiar with pull requests, [read this guide to get started](https://www.ottrproject.org/editing_website.html). \n\n\n## Title\n\nTo change the title of the website, modify the `name` line of the `_site.yml` file.\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](resources/images/title.png){fig-align='center' fig-alt='Change title' width=40%}\n:::\n:::\n\n\n## Modifying pages\n\nPages are specified in the navigation bar by the lines that say `-text:` and `href:` .\n\nThe `-text:` specifies what the navigation bar will say for that tab.\n\nThe `href:` specifies which rendered Rmd file to use for that tab, it needs to be the html version of this file.\n\nThe tabs are specified to be aligned to the left (as specified by the `left` on line 5).\n\nThe tabs will appear in the order listed.\n\nYou can also add icons to these tabs using [font awesome](https://fontawesome.com/) as is shown for the contact page on line 18.\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](resources/images/page_modification.png){fig-align='center' fig-alt='Page modification' width=40%}\n:::\n:::\n\n\nOther icon options include [Bootstap glyphicons](https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp) or [ion icons](https://ionic.io/ionicons). Note that **not all icons will work** because they are not all set up with the packages that make rendering the website possible, so this may require some trial and error.  Here is an example of how you would use all of these icon options to add more:\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](resources/images/more_icons.png){fig-align='center' fig-alt='more icon options' width=40%}\n:::\n:::\n\n\n\nThis would result in a navigation bar with these icons:\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](resources/images/more_icons_result.png){fig-align='center' fig-alt='more icon options' width=70%}\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
