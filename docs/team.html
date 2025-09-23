@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science Collaborative – Data Science Collaborative</title>
+<title>Hosting – Data Science Collaborative</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-fa-home" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-fa-home" role="img">
 </i> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./team.html"> 
+    <a class="nav-link active" href="./team.html" aria-current="page"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong>Data Science Collaborative</strong></h1>
+<h1 class="title">Hosting</h1>
 </div>
 
 
@@ -139,21 +139,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="banner_color">
-<p>Banner text!</p>
-</div>
-<section id="about" class="level3">
-<h3 class="anchored" data-anchor-id="about"><strong>About</strong></h3>
+<section id="hosting-setup" class="level2">
+<h2 class="anchored" data-anchor-id="hosting-setup">Hosting Setup</h2>
+<p>To host your website on GitHub, you will need to go to settings and click on the pages tab.</p>
+<p>Again to go to settings click on the far upper right corner:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/dsc_logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%" alt="Example image"></p>
+<p><img src="resources/images/settings.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Clicking on settings"></p>
 </figure>
 </div>
 </div>
 </div>
-<p>This website was created with the <a href="https://github.com/ottrproject/OTTR_Quarto">OTTR_Quarto website template</a>.</p>
+<p>Click on Pages:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="resources/images/pages.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Clicking on pages"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Select the main branch and the root directory and press save. Be sure to also check the “Enforce HTTPS” box. Afterwards your repository should look like this:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="resources/images/website_setup.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="setup website hosting"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Note that in general, your website will be published to a URL like this:</p>
+<pre><code>https://username.github.io/repository_name/</code></pre>
+<p>If you have multiple websites published underneath your username or organization, this should still publish fine. This website will be a subdirectory that is named whatever you have named this repository.</p>
+<p>If you’ve published this website underneath a GitHub organization (not your own personal GitHub profile), then in the above example URL the organization name will be where we’ve put <code>username</code>.</p>
+<p>For more about GitHub pages (including how to personalize your URL) see the GitHub pages documentation here: https://pages.github.com/</p>
+<p>Sometimes, GitHub page publishing will take a bit of time. You can click on the <code>Actions</code> tab in your repository and see if there is a <code>pages and deployment</code> action currently running (indicated by a yellow circle next to the action name). If this is the case, you will need to wait until this becomes a green check mark before your GitHub page will be published.</p>
 
 
 </section>

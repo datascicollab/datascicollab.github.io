@@ -1,0 +1,15 @@
+{
+  "hash": "b38f99e0955f842f5ba817d21fda8f19",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"**Data Science Collaborative**\"\noutput:\n  html_document\n---\n\n<div class = \"banner_color\">\nBanner text!  \n</div>\n\n### **About**\n\n \n\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](assets/dsc_logo.png){fig-align='center' fig-alt='Example image' width=30%}\n:::\n:::\n\n\n \n \n\n\n\nThis website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
