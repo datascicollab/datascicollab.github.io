@@ -1,25 +1,20 @@
 ---
-title: "**Data Science Collaborative**"
+title: ""
 output:
   html_document
 ---
 
-<div class = "banner_color">
-Banner text!  
-</div>
-
-### **About**
-
- 
-
-
-```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="30%"}
+```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="50%"}
 knitr::include_graphics("assets/dsc_logo.png")
 ```
 
- 
- 
+### **About**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales hendrerit interdum. Ut lectus ipsum, efficitur sit amet commodo et, aliquam non justo. Pellentesque nisl justo, pretium vitae justo porta, viverra lacinia urna. Aenean blandit venenatis vehicula. Curabitur eget luctus nulla. Nullam non pharetra nibh, eget posuere diam. Fusce luctus et mauris et finibus. Quisque non dui at odio pretium tempor et id mauris. Donec cursus accumsan metus sed dictum. Nunc porta ligula in nisl pellentesque, vel ultrices augue dictum. Proin ornare lectus non diam ullamcorper venenatis.
+
+### **Projects and Values**
+
+Sed posuere fermentum sagittis. Morbi nec aliquet est, sit amet porttitor turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut hendrerit leo, ut bibendum leo. Ut vitae quam eget erat fermentum varius sit amet ut lorem. Pellentesque laoreet convallis purus id vehicula. Cras in est vitae nulla euismod tincidunt. Curabitur sed eros eget quam pellentesque varius ornare ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas id libero sit amet sem aliquam hendrerit vitae a odio. Suspendisse volutpat facilisis nunc, id aliquam enim tincidunt a. Nulla nec massa egestas lacus rhoncus tempor. Phasellus eget elementum nisi.
 
 
-
-This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto).
+<!-- This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). -->
