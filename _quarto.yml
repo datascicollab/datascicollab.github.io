@@ -6,13 +6,18 @@ website:
   title: "Data Science Collaborative"
   navbar:
     left:
-    - text: About
+    - text: Home
       href: index.qmd
-      icon: fa-home
     - text: Projects
       href: projects.qmd
+    - text: Software
+      href: software.qmd
     - text: Team
       href: team.qmd
-    - text: Powered by OTTR
-      href: https://www.ottrproject.org/
+    - text: Join
+      href: join.qmd
+  page-footer:
+    center: 
+      - text: Powered by OTTR
+        href: https://www.ottrproject.org/
 

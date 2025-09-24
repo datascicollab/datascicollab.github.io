@@ -1,0 +1,17 @@
+---
+title: ""
+output: html_document
+---
+
+# Software
+
+### OTTR
+
+Edit once, publish everywhere!
+
+[OTTR (Open-source Tools for Training Resources)](https://www.ottrproject.org/) is a free suite of tools and templates that streamlines creating educational websites and online courses using GitHub. With no software installations required, OTTR automatically handles content previews, spell-checking, link validation, and multi-platform publishing to sites like Coursera and Leanpub. Educators simply write in R Markdown/Quarto, and OTTR's automated workflows handle the technical details. OTTR lets you focus on content creation while it manages the infrastructure for scalable, high-quality educational resources.
+
+### Metric Miner
+
+
+
