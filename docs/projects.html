@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Setup – Data Science Collaborative</title>
+<title>projects – Data Science Collaborative</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,21 +89,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-fa-home" role="img">
-</i> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./team.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.ottrproject.org/"> 
-<span class="menu-text">Powered by OTTR</span></a>
+    <a class="nav-link" href="./join.html"> 
+<span class="menu-text">Join</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -118,216 +121,49 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Setup</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="getting-started" class="level3">
-<h3 class="anchored" data-anchor-id="getting-started">Getting started</h3>
-<p>Create your repository by clicking on the <code>Use this Template</code> button at <a href="https://github.com/ottrproject/OTTR_Template_Website">OTTR_Template_Website repository</a></p>
-<p><img src="resources/images/create-repo.png" class="img-fluid"></p>
-<p>You’ll need to make your repository <code>public</code>.</p>
+<section id="current-projects" class="level1">
+<h1>Current Projects</h1>
+<section id="anvil" class="level3">
+<h3 class="anchored" data-anchor-id="anvil">AnVIL</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales hendrerit interdum. Ut lectus ipsum, efficitur sit amet commodo et, aliquam non justo. Pellentesque nisl justo, pretium vitae justo porta, viverra lacinia urna. Aenean blandit venenatis vehicula. Curabitur eget luctus nulla. Nullam non pharetra nibh, eget posuere diam. Fusce luctus et mauris et finibus. Quisque non dui at odio pretium tempor et id mauris. Donec cursus accumsan metus sed dictum. Nunc porta ligula in nisl pellentesque, vel ultrices augue dictum. Proin ornare lectus non diam ullamcorper venenatis.</p>
 </section>
-<section id="set-your-gh_pat" class="level3">
-<h3 class="anchored" data-anchor-id="set-your-gh_pat">Set your GH_PAT</h3>
-<p>To enable the GitHub actions, your repository needs to be setup in a specific way.</p>
-<p>For OTTR GitHub actions to run, they need to have credentials through a personal access token.</p>
-<ol type="1">
-<li>Set up your own personal access token <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">following these instructions</a> - but create a <strong>classic token</strong>. Keep this personal access token handy for the next step. When you get to the permissions page, check the box that says <code>repo</code> and select all that is underneath that header. No other permissions are necessary.</li>
-</ol>
-<details>
-<summary>
-Click here for more detailed instructions. The instructions for this step may change with updates to GitHub.
-</summary>
-<p>First, go to your username settings, by clicking on your user icon (upper right corner) and scrolling down to settings.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/usersettings.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%" alt="User settings"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Next, scroll all the way down on the far right menu to “Developer Settings”.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/developer_settings.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="User settings"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Then select “Personal Access Tokens” and “Tokens (classic)”</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/classic_tokens.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%" alt="classic tokens"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Then click “Generate new token” and confirm that you want classic.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/generate_classic.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="generate classic token"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Finally, add a name select all the repo scopes and scroll down to the green button to generate the token. Copy this somewhere safe to then paste into your repository settings.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/set_up_token.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="set up token"></p>
-</figure>
-</div>
-</div>
-</div>
-</details>
-<ol start="2" type="1">
-<li>In your new OTTR_Template_Website derived repository, go to Settings &gt; Secrets and variables &gt; Actions. Click <code>New Repository Secret</code>.</li>
-</ol>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/repo_action_token.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="classic tokens"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/gh_pat_set_up.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="new repository secret"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>In the window opened, name this new secret <code>GH_PAT</code> and paste the personal access token in the box below. (Note that the name <code>GH_PAT</code> is specific to how OTTR works and other secret names cannot be used and for OTTR to still work).</p>
-<p>Click the green button to add the secret.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/setting_gh_pat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Clicking on settings"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="baltimore-community-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="baltimore-community-data-science">Baltimore Community Data Science</h3>
+<p>Praesent sed accumsan dolor. Nam ipsum augue, malesuada at porttitor ac, semper vel felis. Curabitur euismod, lectus nec aliquet sodales, neque est molestie lacus, at imperdiet ipsum libero a massa. Nam finibus pharetra est, pharetra maximus nulla consectetur quis. Sed quis maximus mi. Donec scelerisque urna odio, eget euismod dui consequat id. Ut non ligula semper, vestibulum quam id, consequat mauris. Nunc vestibulum feugiat elit, et rhoncus lectus consequat ac. Ut et ligula ut mi mollis gravida. Vestibulum odio tortor, congue quis fermentum vitae, sollicitudin et nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dictum nulla arcu, eget congue tellus porta eu. Nullam sollicitudin metus neque, in condimentum eros posuere vel. Sed sagittis magna sit amet lobortis porta.</p>
 </section>
-<section id="allow-github-actions" class="level3">
-<h3 class="anchored" data-anchor-id="allow-github-actions">Allow GitHub Actions</h3>
-<p>Go to the settings menu for your repository that you created from the template. This should be located at the top of GitHub on the right side.</p>
-<p>Scroll down to the “Actions” button and click it, then click “General”.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/actions.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%" alt="allowing workflows"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/general.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="allowing workflows"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Scroll down to the workflow permissions section and select “Read and write permissions”, then click “Allow GitHub actions to create and approve pull requests.</p>
-<p>Finally, click “save”.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/workflows.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="allowing workflows"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="bio-ocs" class="level3">
+<h3 class="anchored" data-anchor-id="bio-ocs">Bio-OCS</h3>
+<p>Sed posuere fermentum sagittis. Morbi nec aliquet est, sit amet porttitor turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut hendrerit leo, ut bibendum leo. Ut vitae quam eget erat fermentum varius sit amet ut lorem. Pellentesque laoreet convallis purus id vehicula. Cras in est vitae nulla euismod tincidunt. Curabitur sed eros eget quam pellentesque varius ornare ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas id libero sit amet sem aliquam hendrerit vitae a odio. Suspendisse volutpat facilisis nunc, id aliquam enim tincidunt a. Nulla nec massa egestas lacus rhoncus tempor. Phasellus eget elementum nisi.</p>
 </section>
-<section id="protect-branches" class="level3">
-<h3 class="anchored" data-anchor-id="protect-branches">Protect branches</h3>
-<p>Although this isn’t entirely required, its strongly recommended that you use these settings to protect your <code>main</code> branches.</p>
-<p>Click on settings in the far upper right corner:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/settings.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Clicking on settings"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Click on branches:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/branches.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Clicking on settings"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Click the add rule button.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/add_rule.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Adding rule" width="608"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Type “main” as the branch name pattern:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/main_branch.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="adding main branch rule"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Click on the following boxes to require pull requests before merging:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/branch_rule.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="modify branch rules"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Note that if you have admin privileges on this repository, you will likely still be able to override these branch protections so use caution when git pushing!</p>
+<section id="daseh" class="level3">
+<h3 class="anchored" data-anchor-id="daseh">DaSEH</h3>
+<p>Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.</p>
+</section>
+<section id="gems" class="level3">
+<h3 class="anchored" data-anchor-id="gems">GEMs</h3>
+<p>Quisque non tristique odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur augue nec justo posuere pellentesque. Ut elementum mauris ac convallis eleifend. Maecenas et dolor nunc. Mauris elementum massa sed diam semper gravida. Quisque pretium eros congue neque dapibus finibus. Aliquam tristique, nisl vitae sollicitudin dapibus, enim ante luctus est, quis sodales diam mauris vitae mauris. Nullam id ultricies velit.</p>
+</section>
+<section id="genomic-data-science-community-network-biodigs" class="level3">
+<h3 class="anchored" data-anchor-id="genomic-data-science-community-network-biodigs">Genomic Data Science Community Network / BioDIGS</h3>
+<p>Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.</p>
+</section>
+<section id="introduction-to-r-for-public-health-researchers" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-to-r-for-public-health-researchers">Introduction to R for Public Health Researchers</h3>
+<p>Praesent sed accumsan dolor. Nam ipsum augue, malesuada at porttitor ac, semper vel felis. Curabitur euismod, lectus nec aliquet sodales, neque est molestie lacus, at imperdiet ipsum libero a massa. Nam finibus pharetra est, pharetra maximus nulla consectetur quis. Sed quis maximus mi. Donec scelerisque urna odio, eget euismod dui consequat id. Ut non ligula semper, vestibulum quam id, consequat mauris. Nunc vestibulum feugiat elit, et rhoncus lectus consequat ac. Ut et ligula ut mi mollis gravida. Vestibulum odio tortor, congue quis fermentum vitae, sollicitudin et nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dictum nulla arcu, eget congue tellus porta eu. Nullam sollicitudin metus neque, in condimentum eros posuere vel. Sed sagittis magna sit amet lobortis porta.</p>
+</section>
+<section id="itcr-training-network" class="level3">
+<h3 class="anchored" data-anchor-id="itcr-training-network">ITCR Training Network</h3>
+<p>Quisque non tristique odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur augue nec justo posuere pellentesque. Ut elementum mauris ac convallis eleifend. Maecenas et dolor nunc. Mauris elementum massa sed diam semper gravida. Quisque pretium eros congue neque dapibus finibus. Aliquam tristique, nisl vitae sollicitudin dapibus, enim ante luctus est, quis sodales diam mauris vitae mauris. Nullam id ultricies velit.</p>
+</section>
+</section>
+<section id="past-projects" class="level1">
+<h1>Past Projects</h1>
+<p>Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.</p>
 
 
 </section>
@@ -733,6 +569,25 @@ Click here for more detailed instructions. The instructions for this step may ch
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.ottrproject.org/">
+<p>Powered by OTTR</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
