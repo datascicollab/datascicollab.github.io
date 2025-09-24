@@ -10,9 +10,15 @@ website:
       href: index.qmd
       icon: fa-home
     - text: Projects
-      href: projects.qmd
+      menu:
+        - text: AnVIL
+          href: Projects.qmd#anvil
+        - text: Community Data Science
+          href: Projects.qmd#baltimore-community-data-science
     - text: Team
       href: hosting.qmd
+    - text: Join Us
+      href: join.qmd
   page-footer:
     center: 
       - text: Powered by OTTR
