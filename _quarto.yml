@@ -9,19 +9,11 @@ website:
     - text: Home
       href: index.qmd
     - text: Projects
-      menu:
-        - text: AnVIL
-          href: projects.qmd#anvil
-        - text: Community Data Science
-          href: projects.qmd#baltimore-community-data-science
+      href: projects.qmd
     - text: Software
       href: software.qmd
     - text: Team
-      menu:
-        - text: Fred Hutch
-          href: team.qmd#fred-hutch
-        - text: JHU
-          href: team.qmd#johns-hopkins-university
+      href: team.qmd
     - text: Join
       href: join.qmd
   page-footer:

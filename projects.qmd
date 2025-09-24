@@ -5,35 +5,35 @@ output: html_document
 
 # Current Projects
 
-## AnVIL
+### AnVIL
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales hendrerit interdum. Ut lectus ipsum, efficitur sit amet commodo et, aliquam non justo. Pellentesque nisl justo, pretium vitae justo porta, viverra lacinia urna. Aenean blandit venenatis vehicula. Curabitur eget luctus nulla. Nullam non pharetra nibh, eget posuere diam. Fusce luctus et mauris et finibus. Quisque non dui at odio pretium tempor et id mauris. Donec cursus accumsan metus sed dictum. Nunc porta ligula in nisl pellentesque, vel ultrices augue dictum. Proin ornare lectus non diam ullamcorper venenatis.
 
-## Baltimore Community Data Science
+### Baltimore Community Data Science
 
 Praesent sed accumsan dolor. Nam ipsum augue, malesuada at porttitor ac, semper vel felis. Curabitur euismod, lectus nec aliquet sodales, neque est molestie lacus, at imperdiet ipsum libero a massa. Nam finibus pharetra est, pharetra maximus nulla consectetur quis. Sed quis maximus mi. Donec scelerisque urna odio, eget euismod dui consequat id. Ut non ligula semper, vestibulum quam id, consequat mauris. Nunc vestibulum feugiat elit, et rhoncus lectus consequat ac. Ut et ligula ut mi mollis gravida. Vestibulum odio tortor, congue quis fermentum vitae, sollicitudin et nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dictum nulla arcu, eget congue tellus porta eu. Nullam sollicitudin metus neque, in condimentum eros posuere vel. Sed sagittis magna sit amet lobortis porta.
 
-## Bio-OCS
+### Bio-OCS
 
 Sed posuere fermentum sagittis. Morbi nec aliquet est, sit amet porttitor turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut hendrerit leo, ut bibendum leo. Ut vitae quam eget erat fermentum varius sit amet ut lorem. Pellentesque laoreet convallis purus id vehicula. Cras in est vitae nulla euismod tincidunt. Curabitur sed eros eget quam pellentesque varius ornare ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas id libero sit amet sem aliquam hendrerit vitae a odio. Suspendisse volutpat facilisis nunc, id aliquam enim tincidunt a. Nulla nec massa egestas lacus rhoncus tempor. Phasellus eget elementum nisi.
 
-## DaSEH
+### DaSEH
 
 Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.
 
-## GEMs
+### GEMs
 
 Quisque non tristique odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur augue nec justo posuere pellentesque. Ut elementum mauris ac convallis eleifend. Maecenas et dolor nunc. Mauris elementum massa sed diam semper gravida. Quisque pretium eros congue neque dapibus finibus. Aliquam tristique, nisl vitae sollicitudin dapibus, enim ante luctus est, quis sodales diam mauris vitae mauris. Nullam id ultricies velit.
 
-## Genomic Data Science Community Network / BioDIGS
+### Genomic Data Science Community Network / BioDIGS
 
 Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.
 
-## Introduction to R for Public Health Researchers
+### Introduction to R for Public Health Researchers
 
 Praesent sed accumsan dolor. Nam ipsum augue, malesuada at porttitor ac, semper vel felis. Curabitur euismod, lectus nec aliquet sodales, neque est molestie lacus, at imperdiet ipsum libero a massa. Nam finibus pharetra est, pharetra maximus nulla consectetur quis. Sed quis maximus mi. Donec scelerisque urna odio, eget euismod dui consequat id. Ut non ligula semper, vestibulum quam id, consequat mauris. Nunc vestibulum feugiat elit, et rhoncus lectus consequat ac. Ut et ligula ut mi mollis gravida. Vestibulum odio tortor, congue quis fermentum vitae, sollicitudin et nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dictum nulla arcu, eget congue tellus porta eu. Nullam sollicitudin metus neque, in condimentum eros posuere vel. Sed sagittis magna sit amet lobortis porta.
 
-## ITCR Training Network
+### ITCR Training Network
 
 Quisque non tristique odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur augue nec justo posuere pellentesque. Ut elementum mauris ac convallis eleifend. Maecenas et dolor nunc. Mauris elementum massa sed diam semper gravida. Quisque pretium eros congue neque dapibus finibus. Aliquam tristique, nisl vitae sollicitudin dapibus, enim ante luctus est, quis sodales diam mauris vitae mauris. Nullam id ultricies velit.
 

@@ -5,11 +5,11 @@ output: html_document
 
 # Team
 
-## Fred Hutch
+### Fred Hutch
 
-## Johns Hopkins University
+### Johns Hopkins University
 
-## University of Texas - Austin
+### University of Texas - Austin
 
 # DaSL Alumni
 
