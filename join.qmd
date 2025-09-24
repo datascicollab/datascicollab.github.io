@@ -5,6 +5,6 @@ output: html_document
 
 # Join us!
 
-We actively seek collaborative opportunities with educators, researchers, and institutions who share our vision of transforming how data science is taught and learned. Whether you're interested in contributing educational content, developing curriculum materials, or exploring new pedagogical approaches in biomedical sciences and AI, we'd love to hear from you! Join us in empowering scientists in STEM and creating educational resources that make data accessible to learners everywhere.
+We actively seek collaborative opportunities with educators, researchers, and institutions who share our vision of transforming how data science is understood and learned. Whether you're interested in contributing educational content, developing curriculum materials, or exploring new research approaches, we'd love to hear from you! Join us in facilitating ethical data science research and creating educational resources that make data accessible to learners everywhere.
 
 Please contact the lead of the project(s) that most interest you.
