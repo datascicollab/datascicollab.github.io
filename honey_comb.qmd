@@ -50,7 +50,7 @@ data <- data.frame(x = runif(10000, min = -0.1, max = 0.1),  # Uniform distribut
                    y = runif(10000, min = -0.1, max = 0.1),  d = runif(10000, min = -0.1, max = 0.1) )  # Uniform distribution
 
 # Create a ggplot with larger gold yellow hexagons
-ggplot(data, aes(x = x, y = y, fill =d)) +
+hc <-ggplot(data, aes(x = x, y = y, fill =d)) +
   geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.02, 0.02)) + # Specify binwidth for hexagons
   scale_fill_gradient(low = "#FFFACD", high = "#FFD700") + # Gold yellow color
   theme_void() + theme(legend.position= "none")
