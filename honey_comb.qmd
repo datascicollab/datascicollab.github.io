@@ -18,7 +18,7 @@ hc <-ggplot(data, aes(x = x, y = y)) +
   theme_void()+theme(legend.position= "none")
 hc
 
-ggsave("resources/images/hex_images/small_hc_solid.png", hc) #save the hex
+ggsave("resources/images/small_hc_solid.png", hc) #save the hex
 
 ```
 
@@ -38,6 +38,8 @@ hc <-ggplot(data, aes(x = x, y = y)) +
   scale_fill_gradient(low = "#FFFACD", high = "#FFD700") + # Gold yellow color
   theme_void()+theme(legend.position= "none")
 hc
+
+ggsave("resources/images/small_hc_gradient.png", hc) #save the hex
 ```
 
 ## full grid honey comb
@@ -52,6 +54,8 @@ ggplot(data, aes(x = x, y = y, fill =d)) +
   geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.02, 0.02)) + # Specify binwidth for hexagons
   scale_fill_gradient(low = "#FFFACD", high = "#FFD700") + # Gold yellow color
   theme_void() + theme(legend.position= "none")
+
+ggsave("resources/images/grid_hc_gradient.png", hc) 
 ```
 
 
