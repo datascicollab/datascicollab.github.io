@@ -1,0 +1,58 @@
+'
+
+## partial honey comb
+
+```{r}
+library(ggplot2)
+set.seed(123)
+data <- data.frame(x = rnorm(100, mean = 0, sd = 0.05),  # Tighter cluster around 0
+                   y = rnorm(100, mean = 0, sd = 0.05))  # Tighter cluster around 0
+
+# Filter out extreme points
+data <- data[data$x > -0.1 & data$x < 0.1 & data$y > -0.1 & data$y < 0.1, ]
+
+# Create plt with  gold yellow hexagons
+hc <-ggplot(data, aes(x = x, y = y)) +
+  geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.02, 0.02)) + # Specify binwidth for larger hexagons
+  scale_fill_gradient(low = "#FFD700", high = "#FFD700") +
+  theme_void()+theme(legend.position= "none")
+hc
+
+ggsave("resources/images/hex_images/small_hc_solid.png", hc) #save the hex
+
+```
+
+## more colors
+
+```{r}
+set.seed(123)
+data <- data.frame(x = rnorm(100, mean = 0, sd = 0.05),  # Tighter cluster around 0
+                   y = rnorm(100, mean = 0, sd = 0.05))  # Tighter cluster around 0
+
+# Filter out extreme points
+data <- data[data$x > -0.1 & data$x < 0.1 & data$y > -0.1 & data$y < 0.1, ]
+
+# Create a ggplot with larger gold yellow hexagons
+hc <-ggplot(data, aes(x = x, y = y)) +
+  geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.02, 0.02)) + # Specify binwidth for larger hexagons
+  scale_fill_gradient(low = "#FFFACD", high = "#FFD700") + # Gold yellow color
+  theme_void()+theme(legend.position= "none")
+hc
+```
+
+## full grid honey comb
+
+```{r}
+set.seed(123)
+data <- data.frame(x = runif(10000, min = -0.1, max = 0.1),  # Uniform distribution
+                   y = runif(10000, min = -0.1, max = 0.1),  d = runif(10000, min = -0.1, max = 0.1) )  # Uniform distribution
+
+# Create a ggplot with larger gold yellow hexagons
+ggplot(data, aes(x = x, y = y, fill =d)) +
+  geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.02, 0.02)) + # Specify binwidth for hexagons
+  scale_fill_gradient(low = "#FFFACD", high = "#FFD700") + # Gold yellow color
+  theme_void() + theme(legend.position= "none")
+```
+
+
+
