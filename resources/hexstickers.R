@@ -80,12 +80,35 @@ test <-make_double_border(inner_hex_path =
 library(ragg)
 #hex: #30b821 and #feb723 abd #ffe4ae and #e1f9df
 img <- image_read(here::here("resources/images/hex_images/logos/daseh.png"))
-hex_ocs <-sticker(img, package="DaSEH",  p_color = "black", p_family = "Comic_Sans",
+hex <-sticker(img, package="DaSEH",  p_color = "black", p_family = "Comic_Sans",
                   p_fontface = "bold",
                   p_size=25, s_x=1, s_y=.8, s_width=1, s_height = 1,
-                  h_fill="#bbf2b4", h_size = 0) + #make with no border as it was messed up
-  theme(plot.margin = margin(.5,0,.5,0, "cm")) + #bottom was cutoff, adding space
-  geom_hexagon(size = 2, fill = NA, color = "black") # add our own border 
-# Print or save the final sticker
-ggsave("resources/images/hex_images/hex_daseh.png", hex_ocs) #save the hex
+                  h_fill="#bbf2b4", h_size = 0) #make with no border as it was messed up
+
+hex <- fix_hex(hex, border_color = "black")
+ggsave("resources/images/hex_images/hex_daseh.png", hex) #save the hex
+
+
+###### AnVIL
+
+img <- image_read(here::here("resources/images/hex_images/logos/logoAnvil.png"))
+hex <-sticker(img, package="AnVIL",  p_color = "#035c93",
+                  p_fontface = "bold",
+                  p_size=35, s_x= 1.1, s_y=.8, s_width=1, s_height = 1,
+                  h_fill="white", h_size = 0) #make with no border as it was messed up
+
+hex <- fix_hex(hex, border_color ="#035c93")
+ggsave("resources/images/hex_images/hex_anvil.png", hex) #save the hex
+
+
+###### gdscn
+
+img <- image_read(here::here("resources/images/hex_images/logos/gdscn.png"))
+hex <-sticker(img, package="GDSCN",  p_color = "#74b163",
+                  p_fontface = "bold",
+                  p_size=35, s_x= 1, s_y=.8, s_width=1.4, s_height = 1.4,
+                  h_fill="white", h_size = 0) #make with no border as it was messed up
+  
+hex <- fix_hex(hex, border_color ="#74b163")
+ggsave("resources/images/hex_images/hex_gdscn.png", hex) #save the hex
 
