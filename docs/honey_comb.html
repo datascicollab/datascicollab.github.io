@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>software – Data Science Collaborative</title>
+<title>honey_comb – Data Science Collaborative</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -97,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./software.html" aria-current="page"> 
+    <a class="nav-link" href="./software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
@@ -126,18 +161,115 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="software" class="level1">
-<h1>Software</h1>
-<section id="ottr" class="level3">
-<h3 class="anchored" data-anchor-id="ottr">OTTR</h3>
-<p>Edit once, publish everywhere!</p>
-<p><a href="https://www.ottrproject.org/">OTTR (Open-source Tools for Training Resources)</a> is a free suite of tools and templates that streamlines creating educational websites and online courses using GitHub. With no software installations required, OTTR automatically handles content previews, spell-checking, link validation, and multi-platform publishing to sites like Coursera and Leanpub. Educators simply write in R Markdown/Quarto, and OTTR’s automated workflows handle the technical details. OTTR lets you focus on content creation while it manages the infrastructure for scalable, high-quality educational resources.</p>
+<p>’</p>
+<section id="partial-honey-comb" class="level2">
+<h2 class="anchored" data-anchor-id="partial-honey-comb">partial honey comb</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="fl">0.05</span>),  <span class="co"># Tighter cluster around 0</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                   <span class="at">y =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="fl">0.05</span>))  <span class="co"># Tighter cluster around 0</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out extreme points</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data[data<span class="sc">$</span>x <span class="sc">&gt;</span> <span class="sc">-</span><span class="fl">0.1</span> <span class="sc">&amp;</span> data<span class="sc">$</span>x <span class="sc">&lt;</span> <span class="fl">0.1</span> <span class="sc">&amp;</span> data<span class="sc">$</span>y <span class="sc">&gt;</span> <span class="sc">-</span><span class="fl">0.1</span> <span class="sc">&amp;</span> data<span class="sc">$</span>y <span class="sc">&lt;</span> <span class="fl">0.1</span>, ]</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Create plt with  gold yellow hexagons</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>hc <span class="ot">&lt;-</span><span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)) <span class="sc">+</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hex</span>(<span class="fu">aes</span>(<span class="at">fill =</span> ..count..), <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">binwidth =</span> <span class="fu">c</span>(<span class="fl">0.02</span>, <span class="fl">0.02</span>)) <span class="sc">+</span> <span class="co"># Specify binwidth for larger hexagons</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"#FFD700"</span>, <span class="at">high =</span> <span class="st">"#FFD700"</span>) <span class="sc">+</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>()<span class="sc">+</span><span class="fu">theme</span>(<span class="at">legend.position=</span> <span class="st">"none"</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>hc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: The dot-dot notation (`..count..`) was deprecated in ggplot2 3.4.0.
+ℹ Please use `after_stat(count)` instead.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Computation failed in `stat_binhex()`.
+Caused by error in `compute_group()`:
+! The package "hexbin" is required for `stat_bin_hex()`.</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="honey_comb_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="st">"resources/images/small_hc_solid.png"</span>, hc) <span class="co">#save the hex</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Saving 7 x 5 in image</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Computation failed in `stat_binhex()`.
+Caused by error in `compute_group()`:
+! The package "hexbin" is required for `stat_bin_hex()`.</code></pre>
+</div>
+</div>
 </section>
-<section id="metric-miner" class="level3">
-<h3 class="anchored" data-anchor-id="metric-miner">Metric Miner</h3>
+<section id="more-colors" class="level2">
+<h2 class="anchored" data-anchor-id="more-colors">more colors</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="fl">0.05</span>),  <span class="co"># Tighter cluster around 0</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">y =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="fl">0.05</span>))  <span class="co"># Tighter cluster around 0</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out extreme points</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data[data<span class="sc">$</span>x <span class="sc">&gt;</span> <span class="sc">-</span><span class="fl">0.1</span> <span class="sc">&amp;</span> data<span class="sc">$</span>x <span class="sc">&lt;</span> <span class="fl">0.1</span> <span class="sc">&amp;</span> data<span class="sc">$</span>y <span class="sc">&gt;</span> <span class="sc">-</span><span class="fl">0.1</span> <span class="sc">&amp;</span> data<span class="sc">$</span>y <span class="sc">&lt;</span> <span class="fl">0.1</span>, ]</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a ggplot with larger gold yellow hexagons</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>hc <span class="ot">&lt;-</span><span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)) <span class="sc">+</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hex</span>(<span class="fu">aes</span>(<span class="at">fill =</span> ..count..), <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">binwidth =</span> <span class="fu">c</span>(<span class="fl">0.02</span>, <span class="fl">0.02</span>)) <span class="sc">+</span> <span class="co"># Specify binwidth for larger hexagons</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"#FFFACD"</span>, <span class="at">high =</span> <span class="st">"#FFD700"</span>) <span class="sc">+</span> <span class="co"># Gold yellow color</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>()<span class="sc">+</span><span class="fu">theme</span>(<span class="at">legend.position=</span> <span class="st">"none"</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>hc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Computation failed in `stat_binhex()`.
+Caused by error in `compute_group()`:
+! The package "hexbin" is required for `stat_bin_hex()`.</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="honey_comb_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="st">"resources/images/small_hc_gradient.png"</span>, hc) <span class="co">#save the hex</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Saving 7 x 5 in image</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Computation failed in `stat_binhex()`.
+Caused by error in `compute_group()`:
+! The package "hexbin" is required for `stat_bin_hex()`.</code></pre>
+</div>
+</div>
+</section>
+<section id="full-grid-honey-comb" class="level2">
+<h2 class="anchored" data-anchor-id="full-grid-honey-comb">full grid honey comb</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">runif</span>(<span class="dv">10000</span>, <span class="at">min =</span> <span class="sc">-</span><span class="fl">0.1</span>, <span class="at">max =</span> <span class="fl">0.1</span>),  <span class="co"># Uniform distribution</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">y =</span> <span class="fu">runif</span>(<span class="dv">10000</span>, <span class="at">min =</span> <span class="sc">-</span><span class="fl">0.1</span>, <span class="at">max =</span> <span class="fl">0.1</span>),  <span class="at">d =</span> <span class="fu">runif</span>(<span class="dv">10000</span>, <span class="at">min =</span> <span class="sc">-</span><span class="fl">0.1</span>, <span class="at">max =</span> <span class="fl">0.1</span>) )  <span class="co"># Uniform distribution</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a ggplot with larger gold yellow hexagons</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>hc <span class="ot">&lt;-</span><span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y, <span class="at">fill =</span>d)) <span class="sc">+</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hex</span>(<span class="fu">aes</span>(<span class="at">fill =</span> ..count..), <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">binwidth =</span> <span class="fu">c</span>(<span class="fl">0.02</span>, <span class="fl">0.02</span>)) <span class="sc">+</span> <span class="co"># Specify binwidth for hexagons</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"#FFFACD"</span>, <span class="at">high =</span> <span class="st">"#FFD700"</span>) <span class="sc">+</span> <span class="co"># Gold yellow color</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position=</span> <span class="st">"none"</span>)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="st">"resources/images/grid_hc_gradient.png"</span>, hc) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Saving 7 x 5 in image</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Computation failed in `stat_binhex()`.
+Caused by error in `compute_group()`:
+! The package "hexbin" is required for `stat_bin_hex()`.</code></pre>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
