@@ -7,7 +7,7 @@ color:
   palette:
     black: "#1A1A1A"
     white: "#F9F9F9"
-    orange: "#FF6F20"
+    gold: "#FFD700"
     pink: "#FF3D7F"
   foreground: black
   background: white
