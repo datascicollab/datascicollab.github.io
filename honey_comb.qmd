@@ -4,9 +4,9 @@
 
 ```{r}
 library(ggplot2)
-set.seed(123)
-data <- data.frame(x = rnorm(100, mean = 0, sd = 0.05),  # Tighter cluster around 0
-                   y = rnorm(100, mean = 0, sd = 0.05))  # Tighter cluster around 0
+set.seed(222) #123 isn't bad
+data <- data.frame(x = rnorm(100, mean = 0, sd = 0.04),  # Tighter cluster around 0
+                   y = rnorm(100, mean = 0, sd = 0.04))  # Tighter cluster around 0
 
 # Filter out extreme points
 data <- data[data$x > -0.1 & data$x < 0.1 & data$y > -0.1 & data$y < 0.1, ]
@@ -15,11 +15,31 @@ data <- data[data$x > -0.1 & data$x < 0.1 & data$y > -0.1 & data$y < 0.1, ]
 hc <-ggplot(data, aes(x = x, y = y)) +
   geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.02, 0.02)) + # Specify binwidth for larger hexagons
   scale_fill_gradient(low = "#FFD700", high = "#FFD700") +
-  theme_void()+theme(legend.position= "none")
+  theme_void()+theme(legend.position= "none") + xlim(c(-0.04,max(data$x))) + ylim(c(-.1, 0.1))
 hc
 
-ggsave("resources/images/small_hc_solid.png", hc) #save the hex
+ggsave("resources/images/small_hc_solid2.png", hc, width = 5.41, height = 5.41) #save the hex
 
+```
+
+
+```{r}
+library(ggplot2)
+set.seed(222) #123 isn't bad
+data <- data.frame(x = rnorm(100, mean = 0, sd = 0.04),  # Tighter cluster around 0
+                   y = rnorm(100, mean = 0, sd = 0.04))  # Tighter cluster around 0
+
+# Filter out extreme points
+data <- data[data$x > -0.1 & data$x < 0.1 & data$y > -0.1 & data$y < 0.1, ]
+
+# Create plt with  gold yellow hexagons
+hc <-ggplot(data, aes(x = x, y = y)) +
+  geom_hex(aes(fill = ..count..), color = "white", binwidth = c(0.03, 0.03)) + # Specify binwidth for larger hexagons
+  scale_fill_gradient(low = "#FFD700", high = "#FFD700") +
+  theme_void()+theme(legend.position= "none") + xlim(c(-0.04,max(data$x))) + ylim(c(-.1, 0.1))
+hc
+
+ggsave("resources/images/small_hc_solid3.png", hc, width = 5.41, height = 5.41) #save the hex
 ```
 
 ## more colors
