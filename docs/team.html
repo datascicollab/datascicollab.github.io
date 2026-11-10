@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b30e670e5601cfaa85bdef5efa539e15.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-6e942f2f6372d81a3862b03e33b5f49d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bd7d9e9d7f458aa9e34494af118c0d68.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-6e942f2f6372d81a3862b03e33b5f49d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f1dbd0d524fb29ee2cc82cbfefb99e92.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-babdc7d5a4b08f6396a17ede2c70f953.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-babdc7d5a4b08f6396a17ede2c70f953.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-babdc7d5a4b08f6396a17ede2c70f953.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,8 +72,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+ <!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WP3T8FD8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -101,6 +116,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./team.html" aria-current="page"> 
 <span class="menu-text">Team</span></a>
   </li>  
@@ -130,16 +149,30 @@ ul.task-list li input[type="checkbox"] {
 <h1>Team</h1>
 <section id="fred-hutch" class="level3">
 <h3 class="anchored" data-anchor-id="fred-hutch">Fred Hutch</h3>
+<p>Ava Hoffman, Senior Staff Scientist</p>
+<p>Elizabeth Humphries, Staff Scientist</p>
+<p>Kate Isaac, Postdoctoral Scholar</p>
+<p>Jeff Leek, Professor</p>
+<p>Sarah Teichman, Postdoctoral Scholar</p>
+<p>Oshane Thomas, Postdoctoral Scholar</p>
+<p>Carrie Wright, Senior Staff Scientist</p>
 </section>
 <section id="johns-hopkins-university" class="level3">
 <h3 class="anchored" data-anchor-id="johns-hopkins-university">Johns Hopkins University</h3>
+<p>Stephanie Hicks, Professor</p>
 </section>
 <section id="university-of-texas---austin" class="level3">
 <h3 class="anchored" data-anchor-id="university-of-texas---austin">University of Texas - Austin</h3>
+<p>Roger Peng, Professor</p>
+</section>
+<section id="washington-university-in-st.-louis" class="level3">
+<h3 class="anchored" data-anchor-id="washington-university-in-st.-louis">Washington University in St.&nbsp;Louis</h3>
+<p>Stephen Salerno, Assistant Professor</p>
 </section>
 </section>
 <section id="dasl-alumni" class="level1">
 <h1>DaSL Alumni</h1>
+<p>Candace Savonen, Data Scientist</p>
 
 
 </section>
@@ -196,13 +229,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

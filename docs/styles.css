@@ -5,6 +5,35 @@
   margin-top: 100px;
 }
 
+/* Color palette - https://paletton.com/ */
+
+:root {
+  --color-lightblue1: #9ac9e4;
+  --color-lightblue2: #e1f1fb;
+  --color-darkblue1: #0B2872;
+  --color-darkblue2: #113692;
+  --color-darkblue3: #274DAB;
+  --color-darkblue4: #4465B7;
+  --color-darkblue5: #6985CB;
+  --color-violet1: #260C75;
+  --color-violet2: #331295;
+  --color-violet3: #4A28AF;
+  --color-violet4: #6446BB;
+  --color-violet5: #846BCE;
+  --color-gold1: #AA7300;
+  --color-gold2: #D99202;
+  --color-gold3: #FFB722; /*logo color*/
+  --color-gold4: #FFC44C;
+  --color-gold5: #FFD275;
+  --color-yellow1: #AA8E00;
+  --color-yellow2: #D9B502;
+  --color-yellow3: #FFDA22;
+  --color-yellow4: #FFE14C;
+  --color-yellow5: #FFE875;
+  
+}
+
+
 
 /* add some color - if you want color behind a major point on your website */
 
@@ -37,3 +66,74 @@
 }
 
 
+
+
+
+
+/* front page project callout box */
+
+.project-callout {
+  display: grid;
+  grid-template-columns: 150px 1fr auto;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.project-callout > p {
+  margin: 0;
+}
+
+.project-callout img {
+  display: block;
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.project-copy h3 {
+  color: var(--color-darkblue1);
+}
+
+.project-copy p {
+  margin: 0.35rem 0 0;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 0.75rem 1.1rem;
+  border-radius: 999px;
+  background: var(--color-darkblue2);
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.project-button:hover {
+  background: var(--color-darkblue3);
+}
+
+@media (max-width: 400px) {
+  .project-callout {
+    grid-template-columns: 1fr;
+  }
+
+  .project-callout img {
+    width: 100%;
+    height: 180px;
+  }
+}
+
+
+
+
+body {
+  background-image: url('https://raw.githubusercontent.com/datascicollab/datascicollab.github.io/b539d96ef04b3646684a2c85b01763a84660c8df/resources/images/small_hc_gradient.png');
+  background-blend-mode: lighten;
+}
