@@ -55,7 +55,7 @@ This course has been taught by our team for several years at the Johns Hopkins B
 
 Informatics Technology for Cancer Research (ITCR) Training Network (ITN) is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. The mission of ITN is to catalyze cancer informatics research through training opportunities. A significant aim is to bridge the gap between ITCR tool developers and the users of those tools by promoting tool usability and strengthening user preparedness. Resources are available across several modalities (courses, cheatsheets, videos, publications, etc.) and are intended for combinations of researchers, software developers, and leaders.  
 
-[ITN home](https://www.itcrtraining.org/){.project-button} [ITN YouTube](https://www.youtube.com/@itcrtrainingnetwork2281){.project-button} [ITN Podcast](https://crackingthecancercode.buzzsprout.com/){.project-button} 
+[ITN home](https://www.itcrtraining.org/){.project-button} [ITN YouTube](https://www.youtube.com/@itcrtrainingnetwork){.project-button} [ITN Podcast](https://crackingthecancercode.buzzsprout.com/){.project-button} 
 
 # Past Projects
 
