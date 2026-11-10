@@ -9,32 +9,40 @@ format:
 
 ### Fred Hutch
 
-Ava Hoffman, Senior Staff Scientist
+[Ava Hoffman](https://avahoffman.com/), Senior Staff Scientist
 
 Elizabeth Humphries, Staff Scientist
 
 Kate Isaac, Postdoctoral Scholar
 
-Jeff Leek, Professor
+[Jeff Leek](http://jtleek.com/), Professor
 
 Sarah Teichman, Postdoctoral Scholar
 
 Oshane Thomas, Postdoctoral Scholar
 
-Carrie Wright, Senior Staff Scientist
+[Carrie Wright](https://carriewright11.github.io/), Senior Staff Scientist
 
 ### Johns Hopkins University
 
-Stephanie Hicks, Professor
+[Brian Caffo](http://www.bcaffo.com/), Professor
+
+Katherine Cox, Associate Faculty
+
+[Stephanie Hicks](http://www.stephaniehicks.com/), Professor
+
+[John Muschelli](https://johnmuschelli.com/), Associate Research Professor
+
+[Frederick Tan](https://cutsort.github.io/), Assistant Research Professor
 
 ### University of Texas - Austin
 
-Roger Peng, Professor
+[Roger Peng](https://rdpeng.org/), Professor
 
 ### Washington University in St. Louis
 
-Stephen Salerno, Assistant Professor
+[Stephen Salerno](https://publichealth.washu.edu/faculty/stephen-salerno/), Assistant Professor
 
 # DaSL Alumni
 
-Candace Savonen, Data Scientist
+[Candace Savonen](https://cansavvy.com/), Data Scientist
