@@ -1,6 +1,8 @@
 ---
 title: ""
-output: html_document
+format:
+  html:
+    css: styles.css
 ---
 
 # Join us!
