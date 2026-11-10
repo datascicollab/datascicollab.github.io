@@ -130,3 +130,10 @@
   }
 }
 
+
+
+
+body {
+  background-image: url('https://raw.githubusercontent.com/datascicollab/datascicollab.github.io/b539d96ef04b3646684a2c85b01763a84660c8df/resources/images/small_hc_gradient.png');
+  background-blend-mode: lighten;
+}
