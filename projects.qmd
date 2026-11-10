@@ -43,13 +43,13 @@ The Genomics Education Modules (GEMs) Program is a collaborative project between
 
 The Genomic Data Science Community Network (GDSCN) is a faculty network that works towards a vision where researchers, educators, and students from all backgrounds are able to fully participate in genomic data science research. The GDSCN research consortium is the BioDIGS (BioDiversity and Informatics for Genomics Scholars) Project, which aims to be at the intersection of genomics, data science, cloud computing, and education. Students and faculty are equipped to explore local soil microbiomes using both short- and long-read metagenomic sequencing.
 
-[GDSCN home](https://jhudatascience.org/intro_to_r/){.project-button} [Course YouTube](https://www.youtube.com/@IntroductionToR){.project-button}
+[GDSCN home](https://www.gdscn.org/){.project-button} [BioDIGS home](https://biodigs.org/){.project-button}
 
 ### Introduction to R for Public Health Researchers
 
 This course has been taught by our team for several years at the Johns Hopkins Bloomberg School of Public Health during the summer and winter intersession program and has been rated as excellent by the students. The course introduces R and principles of data science for students and practitioners of public health. The content includes data import, data wrangling, statistical analysis, data visualization, data export, functions and more. It is intended for those with little to no R experience. The structure includes lectures and hands-on labs. Recordings of previous iterations of the course are available on our website, as well as all of the other materials.
 
-[Course home](https://www.gdscn.org/){.project-button} [BioDIGS home](https://biodigs.org/){.project-button}
+[Course home](https://jhudatascience.org/intro_to_r/)(https://www.gdscn.org/){.project-button} [Course YouTube](https://www.youtube.com/@IntroductionToR){.project-button}
 
 ### ITCR Training Network
 
