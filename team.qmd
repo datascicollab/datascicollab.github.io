@@ -7,7 +7,7 @@ format:
 
 # Team
 
-### Fred Hutch
+### Fred Hutch Cancer Center
 
 [Ava Hoffman](https://avahoffman.com/), Senior Staff Scientist
 
