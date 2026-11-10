@@ -1,0 +1,16 @@
+---
+title: "Hello World, from the Data Science Collaborative!"
+author: "Ava Hoffman"
+date: "2026-11-10"
+categories: [news]
+---
+
+![](../../assets/dsc_logo.png){width=60% fig-align="center"}
+
+<!-- Since this post doesn't specify an explicit `image`, the first image in the post will be used as the thumbnail in the listing page of posts. -->
+
+This has been a long time coming.. 
+
+**We're excited to launch our first collaborative website!**
+
+Our projects span multiple institutions, so we felt it best to share all of our cool work in one, institution-agnostic place. We have some exciting things coming -- stay tuned!

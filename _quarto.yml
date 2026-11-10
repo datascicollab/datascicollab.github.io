@@ -12,6 +12,8 @@ website:
       href: projects.qmd
     - text: Software
       href: software.qmd
+    - text: Blog
+      href: blog.qmd
     - text: Team
       href: team.qmd
     - text: Join
