@@ -1,8 +1,5 @@
 ---
 title: ""
-format:
-  html:
-    css: styles.css
 ---
 
 ```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="50%"}

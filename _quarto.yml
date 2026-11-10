@@ -23,6 +23,7 @@ website:
 
 format:
   html:
+    css: styles.css
     include-in-header:
       - file: assets/header.html
   
