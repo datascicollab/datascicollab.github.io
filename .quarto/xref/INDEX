@@ -1,0 +1,26 @@
+{
+  "team.qmd": {
+    "team.html": "d7dd04bb"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "9a4c6b77"
+  },
+  "projects.qmd": {
+    "projects.html": "52648205"
+  },
+  "join.qmd": {
+    "join.html": "d8e758c8"
+  },
+  "contact.qmd": {
+    "contact.html": "ffe84164"
+  },
+  "software.qmd": {
+    "software.html": "9ec23688"
+  },
+  "blog.qmd": {
+    "blog.html": "ba0efbf3"
+  },
+  "index.qmd": {
+    "index.html": "ef047b96"
+  }
+}
