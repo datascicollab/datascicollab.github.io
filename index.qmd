@@ -1,7 +1,8 @@
 ---
 title: ""
-output:
-  html_document
+format:
+  html:
+    css: styles.css
 ---
 
 ```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="50%"}
@@ -10,11 +11,36 @@ knitr::include_graphics("assets/dsc_logo.png")
 
 ### **About**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales hendrerit interdum. Ut lectus ipsum, efficitur sit amet commodo et, aliquam non justo. Pellentesque nisl justo, pretium vitae justo porta, viverra lacinia urna. Aenean blandit venenatis vehicula. Curabitur eget luctus nulla. Nullam non pharetra nibh, eget posuere diam. Fusce luctus et mauris et finibus. Quisque non dui at odio pretium tempor et id mauris. Donec cursus accumsan metus sed dictum. Nunc porta ligula in nisl pellentesque, vel ultrices augue dictum. Proin ornare lectus non diam ullamcorper venenatis.
+The Data Science Collaborative brings together experts in biomedical data science training and education across institutions. We jointly run a variety of training, education, software and tooling initiatives funded through federal agencies, non-profit institutions, and philanthropic organizations. Our programs support data science education in a number of scientific areas that are broadly applicable across the world. Our goal is to make data science education available to anyone who wants it. 
 
-### **Projects and Values**
+:::: {.project-callout}
 
-Sed posuere fermentum sagittis. Morbi nec aliquet est, sit amet porttitor turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut hendrerit leo, ut bibendum leo. Ut vitae quam eget erat fermentum varius sit amet ut lorem. Pellentesque laoreet convallis purus id vehicula. Cras in est vitae nulla euismod tincidunt. Curabitur sed eros eget quam pellentesque varius ornare ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas id libero sit amet sem aliquam hendrerit vitae a odio. Suspendisse volutpat facilisis nunc, id aliquam enim tincidunt a. Nulla nec massa egestas lacus rhoncus tempor. Phasellus eget elementum nisi.
+![](assets/icons/laptop-and-light-bulb.png)
 
+::: {.project-copy}
+### Explore our work
+
+See what we’ve been building and browse our latest projects.
+:::
+
+[Our projects](projects.qmd){.project-button}
+
+::::
+
+<br>
+
+:::: {.project-callout}
+
+![](assets/icons/responsibility-team.png)
+
+::: {.project-copy}
+### Get to know us
+
+Meet the team behind the Data Science Collaborative.
+:::
+
+[Our team](team.qmd){.project-button}
+
+::::
 
 <!-- This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). -->
