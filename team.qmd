@@ -1,15 +1,40 @@
 ---
 title: ""
-output: html_document
+format:
+  html:
+    css: styles.css
 ---
 
 # Team
 
 ### Fred Hutch
 
+Ava Hoffman, Senior Staff Scientist
+
+Elizabeth Humphries, Staff Scientist
+
+Kate Isaac, Postdoctoral Scholar
+
+Jeff Leek, Professor
+
+Sarah Teichman, Postdoctoral Scholar
+
+Oshane Thomas, Postdoctoral Scholar
+
+Carrie Wright, Senior Staff Scientist
+
 ### Johns Hopkins University
+
+Stephanie Hicks, Professor
 
 ### University of Texas - Austin
 
+Roger Peng, Professor
+
+### Washington University in St. Louis
+
+Stephen Salerno, Assistant Professor
+
 # DaSL Alumni
 
+Candace Savonen, Data Scientist

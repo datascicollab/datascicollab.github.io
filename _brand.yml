@@ -2,16 +2,15 @@ meta:
   name: _brand.yml
   link: https://datascicollab.github.io
 
-
+# See the css file for the full color palette!
 color:
   palette:
     black: "#1A1A1A"
     white: "#F9F9F9"
-    orange: "#FF6F20"
-    pink: "#FF3D7F"
+    darkblue3: "#274DAB"
   foreground: black
   background: white
-  primary: orange
+  primary: darkblue3
   danger: pink
 
 typography:
