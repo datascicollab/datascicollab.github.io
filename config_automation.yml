@@ -19,7 +19,7 @@ style-code: true
 # Would you like your markdown files to be checked for formatting
 markdown-linter: true
 # Would you like a readability report on your markdowns?
-readability-report: true
+readability-report: false
 # Test build the docker image if any docker-relevant files have been changed
 docker-test: false
 # Should URLs be tested periodically?

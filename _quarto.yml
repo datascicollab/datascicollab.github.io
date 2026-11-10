@@ -12,6 +12,8 @@ website:
       href: projects.qmd
     - text: Software
       href: software.qmd
+    - text: Blog
+      href: blog.qmd
     - text: Team
       href: team.qmd
     - text: Join
@@ -20,4 +22,11 @@ website:
     center: 
       - text: Powered by OTTR
         href: https://www.ottrproject.org/
+
+format:
+  html:
+    css: styles.css
+    include-in-header:
+      - file: assets/header.html
+  
 

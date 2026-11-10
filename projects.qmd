@@ -1,42 +1,66 @@
 ---
 title: ""
-output: html_document
+format:
+  html:
+    css: styles.css
 ---
 
-# Current Projects
+# Active Projects
 
 ### AnVIL
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales hendrerit interdum. Ut lectus ipsum, efficitur sit amet commodo et, aliquam non justo. Pellentesque nisl justo, pretium vitae justo porta, viverra lacinia urna. Aenean blandit venenatis vehicula. Curabitur eget luctus nulla. Nullam non pharetra nibh, eget posuere diam. Fusce luctus et mauris et finibus. Quisque non dui at odio pretium tempor et id mauris. Donec cursus accumsan metus sed dictum. Nunc porta ligula in nisl pellentesque, vel ultrices augue dictum. Proin ornare lectus non diam ullamcorper venenatis.
+The NHGRI AnVIL (Genomic Data Science Analysis, Visualization, and Informatics Lab-space) is a project powered by Terra for biomedical researchers to access data, run analysis tools, and collaborate. The AnVIL platform is useful for researchers, clinicians, and educators. Given the multifaceted offerings of the AnVIL platform, we support users with a variety of resources, hosting events, and soliciting feedback from the AnVIL community.
+
+[AnVIL home](https://anvilproject.org){.project-button} [AnVIL training](https://training.anvilproject.org){.project-button}
 
 ### Baltimore Community Data Science
 
-Praesent sed accumsan dolor. Nam ipsum augue, malesuada at porttitor ac, semper vel felis. Curabitur euismod, lectus nec aliquet sodales, neque est molestie lacus, at imperdiet ipsum libero a massa. Nam finibus pharetra est, pharetra maximus nulla consectetur quis. Sed quis maximus mi. Donec scelerisque urna odio, eget euismod dui consequat id. Ut non ligula semper, vestibulum quam id, consequat mauris. Nunc vestibulum feugiat elit, et rhoncus lectus consequat ac. Ut et ligula ut mi mollis gravida. Vestibulum odio tortor, congue quis fermentum vitae, sollicitudin et nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dictum nulla arcu, eget congue tellus porta eu. Nullam sollicitudin metus neque, in condimentum eros posuere vel. Sed sagittis magna sit amet lobortis porta.
+This course was developed in partnership with [SOURCE at the Johns Hopkins Bloomberg School of Public Health](https://source.jhu.edu/), the community engagement and service learning center for Johns Hopkins schools of Public Health, Nursing, and Medicine. We partner with community-based organizations (CBOs) to collaboratively work on data science projects. Students learn service learning skills as well as data science skills.
+
+[BCDS course home](https://jhudatascience.org/Baltimore_Community_Course/){.project-button}
 
 ### Bio-OCS
 
-Sed posuere fermentum sagittis. Morbi nec aliquet est, sit amet porttitor turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut hendrerit leo, ut bibendum leo. Ut vitae quam eget erat fermentum varius sit amet ut lorem. Pellentesque laoreet convallis purus id vehicula. Cras in est vitae nulla euismod tincidunt. Curabitur sed eros eget quam pellentesque varius ornare ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas id libero sit amet sem aliquam hendrerit vitae a odio. Suspendisse volutpat facilisis nunc, id aliquam enim tincidunt a. Nulla nec massa egestas lacus rhoncus tempor. Phasellus eget elementum nisi.
+The Open Case Studies project is an educational resource of experiential guides that demonstrate how to effectively derive knowledge from data in real-world challenges. Resources are intended for educators, students, and independent learners. The original OCS provides case studies focused on data science skills for public health topics.
+
+Bio-OCS is a new phase of OCS, providing case studies focused on biomedical topics and building bioinformatics skills using cutting-edge methodologies and tools.
+
+[Open Case Studies home](https://www.opencasestudies.org/){.project-button}
 
 ### DaSEH
 
-Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.
+Data Science for Environmental Health (DaSEH) is an NIEHS-funded short course that combines online learning and an in-person project-focused intensive. DaSEH is tailored for beginners and novices in R programming, offering instruction on importing, wrangling, visualizing, and analyzing data. It provides hands-on training in using R for statistical computing, a widely-used open-source tool for data analysis and visualization.
+
+[DaSEH home](https://daseh.org/){.project-button}
 
 ### GEMs
 
-Quisque non tristique odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur augue nec justo posuere pellentesque. Ut elementum mauris ac convallis eleifend. Maecenas et dolor nunc. Mauris elementum massa sed diam semper gravida. Quisque pretium eros congue neque dapibus finibus. Aliquam tristique, nisl vitae sollicitudin dapibus, enim ante luctus est, quis sodales diam mauris vitae mauris. Nullam id ultricies velit.
+The Genomics Education Modules (GEMs) Program is a collaborative project between Fred Hutch Cancer Center, Clovis Community College, Guttman Community College, El Paso Community College, and Georgetown University. It focuses on creating educational materials and instructor training for genomic data science, specifically at two-year and teaching intensive colleges.
+
+[GEMs home](https://genomicseducation.org/){.project-button}
 
 ### Genomic Data Science Community Network / BioDIGS
 
-Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.
+The Genomic Data Science Community Network (GDSCN) is a faculty network that works towards a vision where researchers, educators, and students from all backgrounds are able to fully participate in genomic data science research. The GDSCN research consortium is the BioDIGS (BioDiversity and Informatics for Genomics Scholars) Project, which aims to be at the intersection of genomics, data science, cloud computing, and education. Students and faculty are equipped to explore local soil microbiomes using both short- and long-read metagenomic sequencing.
+
+[GDSCN home](https://www.gdscn.org/){.project-button} [BioDIGS home](https://biodigs.org/){.project-button}
 
 ### Introduction to R for Public Health Researchers
 
-Praesent sed accumsan dolor. Nam ipsum augue, malesuada at porttitor ac, semper vel felis. Curabitur euismod, lectus nec aliquet sodales, neque est molestie lacus, at imperdiet ipsum libero a massa. Nam finibus pharetra est, pharetra maximus nulla consectetur quis. Sed quis maximus mi. Donec scelerisque urna odio, eget euismod dui consequat id. Ut non ligula semper, vestibulum quam id, consequat mauris. Nunc vestibulum feugiat elit, et rhoncus lectus consequat ac. Ut et ligula ut mi mollis gravida. Vestibulum odio tortor, congue quis fermentum vitae, sollicitudin et nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer dictum nulla arcu, eget congue tellus porta eu. Nullam sollicitudin metus neque, in condimentum eros posuere vel. Sed sagittis magna sit amet lobortis porta.
+This course has been taught by our team for several years at the Johns Hopkins Bloomberg School of Public Health during the summer and winter intersession program and has been rated as excellent by the students. The course introduces R and principles of data science for students and practitioners of public health. The content includes data import, data wrangling, statistical analysis, data visualization, data export, functions and more. It is intended for those with little to no R experience. The structure includes lectures and hands-on labs. Recordings of previous iterations of the course are available on our website, as well as all of the other materials.
+
+[Course home](https://jhudatascience.org/intro_to_r/)(https://www.gdscn.org/){.project-button} [Course YouTube](https://www.youtube.com/@IntroductionToR){.project-button}
 
 ### ITCR Training Network
 
-Quisque non tristique odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque consectetur augue nec justo posuere pellentesque. Ut elementum mauris ac convallis eleifend. Maecenas et dolor nunc. Mauris elementum massa sed diam semper gravida. Quisque pretium eros congue neque dapibus finibus. Aliquam tristique, nisl vitae sollicitudin dapibus, enim ante luctus est, quis sodales diam mauris vitae mauris. Nullam id ultricies velit.
+Informatics Technology for Cancer Research (ITCR) Training Network (ITN) is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. The mission of ITN is to catalyze cancer informatics research through training opportunities. A significant aim is to bridge the gap between ITCR tool developers and the users of those tools by promoting tool usability and strengthening user preparedness. Resources are available across several modalities (courses, cheatsheets, videos, publications, etc.) and are intended for combinations of researchers, software developers, and leaders.  
+
+[ITN home](https://www.itcrtraining.org/){.project-button} [ITN YouTube](https://www.youtube.com/@itcrtrainingnetwork){.project-button} [ITN Podcast](https://crackingthecancercode.buzzsprout.com/){.project-button} 
 
 # Past Projects
 
-Duis posuere efficitur nisi. Sed commodo tempor ante sit amet rutrum. Vivamus quis dolor vel erat sollicitudin semper. Morbi faucibus dictum risus, vel dapibus est lacinia ac. Aenean et congue est. Ut ut enim luctus orci tincidunt fermentum. Nam hendrerit auctor dolor, id ullamcorper massa vulputate non. Phasellus vel lorem eget dolor egestas tempus.
+### Tidyverse Course
+
+This course introduces a powerful set of data science tools known as the Tidyverse. This course on the Tidyverse ecosystem of R packages cover different aspects of the data science pipeline, from importing the data, tidying the data into a format that is easy to work with, exploring and visualizing the data, and fitting machine learning models.
+
+[Course web](https://jhudatascience.org/tidyversecourse/){.project-button} [Course Leanpub](https://leanpub.com/tidyverseskillsdatascience){.project-button} [Course Coursera](https://www.coursera.org/specializations/tidyverse-data-science-r){.project-button} 

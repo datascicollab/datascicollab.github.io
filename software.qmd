@@ -1,6 +1,8 @@
 ---
 title: ""
-output: html_document
+format:
+  html:
+    css: styles.css
 ---
 
 # Software
@@ -11,7 +13,16 @@ Edit once, publish everywhere!
 
 [OTTR (Open-source Tools for Training Resources)](https://www.ottrproject.org/) is a free suite of tools and templates that streamlines creating educational websites and online courses using GitHub. With no software installations required, OTTR automatically handles content previews, spell-checking, link validation, and multi-platform publishing to sites like Coursera and Leanpub. Educators simply write in R Markdown/Quarto, and OTTR's automated workflows handle the technical details. OTTR lets you focus on content creation while it manages the infrastructure for scalable, high-quality educational resources.
 
-### Metric Miner
+[OTTR home](https://www.ottrproject.org/){.project-button}
 
+### metricminer
 
+This tool streamlines collection of metrics specific to your resources from platforms like Google Analytics and GitHub by managing authentication and routinely refreshing fetched data. The data is cleaned, making it tidy and ready to visualize. Resources to track and specific metrics to gather can be customized by the user. Dashboard integration with OTTR is also supported.  
 
+[metricminer home](https://www.metricminer.org/){.project-button}
+
+### Loqui
+
+This tool helps users convert slide presentations to videos where the text within speaker notes becomes the audio and the slides become the images. 
+
+[Loqui home](https://loqui.fredhutch.org/){.project-button}
