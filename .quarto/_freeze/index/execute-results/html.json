@@ -1,0 +1,15 @@
+{
+  "hash": "46a71791c255a3b64938322fbe1beead",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\n---\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](assets/dsc_logo.png){fig-align='center' fig-alt='Example image' width=50%}\n:::\n:::\n\n\n### **About**\n\nThe Data Science Collaborative brings together experts in biomedical data science training and education across institutions. We jointly run a variety of training, education, software and tooling initiatives funded through federal agencies, non-profit institutions, and philanthropic organizations. Our programs support data science education in a number of scientific areas that are broadly applicable across the world. Our goal is to make data science education available to anyone who wants it. \n\n:::: {.project-callout}\n\n![](assets/icons/laptop-and-light-bulb.png)\n\n::: {.project-copy}\n### Explore our work\n\nSee what we’ve been building and browse our latest projects.\n:::\n\n[Our projects](projects.qmd){.project-button}\n\n::::\n\n<br>\n\n:::: {.project-callout}\n\n![](assets/icons/responsibility-team.png)\n\n::: {.project-copy}\n### Get to know us\n\nMeet the team behind the Data Science Collaborative.\n:::\n\n[Our team](team.qmd){.project-button}\n\n::::\n\n<!-- This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). -->\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
