@@ -13,7 +13,7 @@ format:
 
 Elizabeth Humphries, Staff Scientist
 
-Kate Isaac, Postdoctoral Scholar
+[Kate Isaac](https://kweav.github.io/), Postdoctoral Scholar
 
 [Jeff Leek](http://jtleek.com/), Professor
 
